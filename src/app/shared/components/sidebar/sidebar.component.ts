@@ -24,4 +24,8 @@ get tags() : string[]{
   public removeTag( tag : string) : void {
     this.gifsService.removeTag(tag);
   }
+
+  // public clearTags() : void {
+  //   this.gifsService.clearTags();
+  // }
 }

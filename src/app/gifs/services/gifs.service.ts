@@ -64,6 +64,11 @@ public gifList : Gif[] = [];
     this._tagsHistory = this._tagsHistory.filter(t => t !== tag);
     this.saveLocalStorage(); // Guarda el estado actualizado en localStorage
   }
+  //elimina todos los tags
+  // public clearTags(): void {
+  //   this._tagsHistory = [];
+  //   this.saveLocalStorage(); // Guarda el estado actualizado en localStorage
+  // }
 
   private saveLocalStorage() : void {
     localStorage.setItem('history', JSON.stringify( this._tagsHistory))
