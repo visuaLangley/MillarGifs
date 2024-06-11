@@ -11,6 +11,6 @@ export class CardComponent implements OnInit{
   public gif! : Gif;
 
   ngOnInit(): void {
-    if (!this.gif)throw new Error('Propiedad Gif es requerida');
+    if (!this.gif) throw new Error('Propiedad Gif es requerida');
   }
 }

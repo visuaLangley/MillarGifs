@@ -1,0 +1,25 @@
+<!-- si hasloaed es true, se mostrara la imagen -->
+<div class="d-flex justify-content-center">
+
+  <img
+  [src]="url"
+  [alt]="alt"
+  class="card-img-top animate__animated animate__fadeIn"
+  (load)="onLoad()"
+  [ngStyle]="{ display: hasLoaded ? '' : 'none' }"
+  />
+
+
+
+
+
+<!-- si es false, *ngIf=" hasLoaded === false " el spinner se mostrara -->
+<img
+*ngIf=" hasLoaded === false "
+src="assets/loader.svg"
+height="35"
+width="35"
+class="mt-3"
+/>
+
+</div>
