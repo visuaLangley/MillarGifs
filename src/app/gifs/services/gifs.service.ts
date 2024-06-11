@@ -55,6 +55,14 @@ public gifList : Gif[] = [];
     }
     this.saveLocalStorage();
     // this.loadLocalStorage();
+
+
+  }
+
+  //eliminar tag
+  removeTag(tag : string) : void{
+    this._tagsHistory = this._tagsHistory.filter(t => t !== tag);
+    this.saveLocalStorage(); // Guarda el estado actualizado en localStorage
   }
 
   private saveLocalStorage() : void {

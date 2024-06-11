@@ -20,4 +20,8 @@ get tags() : string[]{
   public searchTag( tag : string ) : void{
     this.gifsService.searchTag(tag)
   }
+//metodo para eliminar tag, que viene tambien de nuestro gifsService
+  public removeTag( tag : string) : void {
+    this.gifsService.removeTag(tag);
+  }
 }
