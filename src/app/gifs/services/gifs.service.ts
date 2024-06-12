@@ -11,7 +11,7 @@ export class GifsService {
 
 
   //este gifList almacena o contiene toda la lista de los gifs que mostramos en el momento
-public gifList : Gif[] = [];
+  public gifList : Gif[] = [];
 
 
 

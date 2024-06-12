@@ -2,3 +2,6 @@
   height: 100vh;
   width: 250px;
 }
+.circular-button {
+  border-radius: 50%; /* Esto hará que el botón tenga forma circular */
+}
