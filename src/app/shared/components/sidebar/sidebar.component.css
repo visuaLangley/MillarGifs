@@ -3,5 +3,5 @@
   width: 250px;
 }
 .circular-button {
-  border-radius: 50%; /* Esto hará que el botón tenga forma circular */
+  border-radius: 100%; /* Esto hará que el botón tenga forma circular */
 }
